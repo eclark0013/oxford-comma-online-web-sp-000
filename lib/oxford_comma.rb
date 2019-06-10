@@ -1,7 +1,7 @@
 def oxford_comma(array)
   empty_string=""
 #only 1 element
-if array.length = 1
+if array.count = 1
   empty_string=array.join
 #end only 1 element
 
