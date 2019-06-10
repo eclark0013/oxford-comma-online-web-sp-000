@@ -9,7 +9,7 @@ penult_array = array.pop #making array out of n-1 elements (without losing last 
 
 #start 2 or more elements
 elsif array.count==2
-  empty_string = "#{array[1]} and #{array[2]}"
+  empty_string = "#{array[0]} and #{array[1]}"
 #start iteration
 else
 penult_array.each do |element|
