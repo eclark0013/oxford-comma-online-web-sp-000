@@ -10,7 +10,9 @@ elsif array.count==2
   empty_string = "#{array[0]} and #{array[1]}"
 #start iteration
 else
-  empty_string=array.last
+  last_thing = array.last
+  array.each do |fruit|
+    empty_string << fruit
 end
 #end 2 or more elements
 empty_string
