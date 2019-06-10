@@ -15,7 +15,7 @@ else
     empty_string << "#{fruit}, "
   end
   empty_string=empty_string.chomp("#{last_thing}, ")
-  empty_string= "empty_string, and #{last_thing}"
+  empty_string= "#{empty_string}, and #{last_thing}"
 end
 #end 2 or more elements
 empty_string
