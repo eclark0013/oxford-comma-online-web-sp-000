@@ -12,11 +12,6 @@ elsif array.count==2
   empty_string = "#{array[0]} and #{array[1]}"
 #start iteration
 else
-penult_array.each do |element|
-  empty_string<<"#{element}, "
-end
-#end iteration
-empty_string<<"and #{array.last}" #put on the last element
 end
 #end 2 or more elements
 empty_string
